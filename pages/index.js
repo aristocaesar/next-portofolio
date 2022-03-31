@@ -1,19 +1,20 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import Navbar from "@Components/navbar/nav";
+import Navbar from "@Components/Navbar";
 import ImageProfile from "@Components/ImageProfile";
+import Footer from "@Components/Footer";
 
 export default function Home() {
   return (
     <Fragment>
-      <Head>
-        <title>Aristo Caesar Pratama</title>
-      </Head>
-      <div className="container my-6 m-auto md:w-6/12 w-full">
-        <h1 className="text-center font-bold text-white">Aristoc.Space</h1>
+      <main>
+        <Head>
+          <title>I'am &#8729; Aristo Caesar Pratama</title>
+        </Head>
         <Navbar />
-        <ImageProfile />
-      </div>
+        <ImageProfile socialMedia={true} />
+      </main>
+      <Footer />
     </Fragment>
   );
 }

@@ -2,9 +2,6 @@ import Image from "next/image";
 import SocialMedia from "@Components/SocialMedia";
 
 export default function ImageProfile(props) {
-  console.log(props);
-  if (props.socialMedia) props.socialMedia;
-
   return (
     <div className="text-center">
       <Image
@@ -13,7 +10,7 @@ export default function ImageProfile(props) {
         width={170}
         height={170}
       />
-      {props.socialMedia ? <SocialMedia /> : ""}
+      {props.socialMedia == true ? <SocialMedia /> : ""}
     </div>
   );
 }
