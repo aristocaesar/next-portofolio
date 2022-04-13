@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ImagePhoto from "../../public/aristo-caesar-pratama.jpg";
 import SocialMedia from "@Components/SocialMedia";
 
 export default function ImageProfile(props) {
@@ -6,7 +7,7 @@ export default function ImageProfile(props) {
     <div className="text-center">
       <Image
         className="rounded-full"
-        src="/aristo-caesar-pratama.jpg"
+        src={ImagePhoto}
         width={170}
         height={170}
       />

@@ -3,9 +3,11 @@ import { Fragment } from "react";
 import Navbar from "@Components/Navbar";
 import ImageProfile from "@Components/ImageProfile";
 import Footer from "@Components/Footer";
-import Blog from "@Components/Blog";
+import Comment from "@Components/Comment";
 
-function Home(props) {
+function BlogSingle(props) {
+  const { id, title, content } = props.blogData[0];
+
   return (
     <Fragment>
       <main>
@@ -15,8 +17,10 @@ function Home(props) {
         <Navbar />
         <ImageProfile socialMedia={true} />
         <article className="text-white my-16 text-lg grid gap-y-5">
-          <Blog data={props.blogsData} />
+          <h1 className="font-bold text-white">{title}</h1>
+          <p className="font-light text-white">{content}</p>
         </article>
+        <Comment />
       </main>
       <Footer />
     </Fragment>
@@ -24,15 +28,18 @@ function Home(props) {
 }
 
 export async function getServerSideProps(context) {
-  const blogs = await fetch("http://localhost:8000/blog");
+  const { params } = context;
 
-  const blogsData = await blogs.json();
+  const slug = params.slug;
+
+  const blog = await fetch(`http://localhost:8000/blog/?slug=${slug}`);
+  const blogData = await blog.json();
 
   return {
     props: {
-      blogsData,
+      blogData,
     },
   };
 }
 
-export default Home;
+export default BlogSingle;

@@ -48,7 +48,7 @@ export default function About() {
             </p>
             <p>
               Message{" "}
-              <Link href="https://api.whatsapp.com/send?phone=85235119101&text=Hello%20Aristo!">
+              <Link href="https://api.whatsapp.com/send?phone=085235119101&text=Hello%20Aristo!">
                 <a className="underline" target="_blank">
                   me
                 </a>

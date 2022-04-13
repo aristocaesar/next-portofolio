@@ -1,0 +1,32 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "title": "[REACT] Apa itu react hook ?",
+      "slug": "apa-itu-react-hook",
+      "content": "Commodo nostrud magna ex excepteur tempor minim ullamco voluptate reprehenderit occaecat pariatur qui incididunt. Mollit sunt aliqua proident cupidatat nulla incididunt aute amet dolore voluptate ipsum. Irure ex laboris commodo sunt consectetur laborum. Elit excepteur irure amet reprehenderit ipsum voluptate qui fugiat ea fugiat anim. Cillum consectetur proident sunt et ex deserunt duis quis pariatur. Ut minim sit esse velit nulla officia magna eiusmod mollit deserunt. Et ea ullamco dolor Lorem veniam aute ex sint officia in non officia officia.",
+      "publishedAt": "dd-mm-yyyy"
+    },
+    {
+      "id": 2,
+      "title": "[JAVA SCRIPT] Destructuring array ?",
+      "slug": "destructuring-array-javascript",
+      "content": "Commodo nostrud magna ex excepteur tempor minim ullamco voluptate reprehenderit occaecat pariatur qui incididunt. Mollit sunt aliqua proident cupidatat nulla incididunt aute amet dolore voluptate ipsum. Irure ex laboris commodo sunt consectetur laborum. Elit excepteur irure amet reprehenderit ipsum voluptate qui fugiat ea fugiat anim. Cillum consectetur proident sunt et ex deserunt duis quis pariatur. Ut minim sit esse velit nulla officia magna eiusmod mollit deserunt. Et ea ullamco dolor Lorem veniam aute ex sint officia in non officia officia.",
+      "publishedAt": "dd-mm-yyyy"
+    },
+    {
+      "id": 3,
+      "title": "[JAVA SCRIPT] Closure pada javscript ?",
+      "slug": "closure-javascript",
+      "content": "Commodo nostrud magna ex excepteur tempor minim ullamco voluptate reprehenderit occaecat pariatur qui incididunt. Mollit sunt aliqua proident cupidatat nulla incididunt aute amet dolore voluptate ipsum. Irure ex laboris commodo sunt consectetur laborum. Elit excepteur irure amet reprehenderit ipsum voluptate qui fugiat ea fugiat anim. Cillum consectetur proident sunt et ex deserunt duis quis pariatur. Ut minim sit esse velit nulla officia magna eiusmod mollit deserunt. Et ea ullamco dolor Lorem veniam aute ex sint officia in non officia officia.",
+      "publishedAt": "dd-mm-yyyy"
+    },
+    {
+      "id": 4,
+      "title": "[JAVA SCRIPT] Refactory code ?",
+      "slug": "refactory-javascript",
+      "content": "Commodo nostrud magna ex excepteur tempor minim ullamco voluptate reprehenderit occaecat pariatur qui incididunt. Mollit sunt aliqua proident cupidatat nulla incididunt aute amet dolore voluptate ipsum. Irure ex laboris commodo sunt consectetur laborum. Elit excepteur irure amet reprehenderit ipsum voluptate qui fugiat ea fugiat anim. Cillum consectetur proident sunt et ex deserunt duis quis pariatur. Ut minim sit esse velit nulla officia magna eiusmod mollit deserunt. Et ea ullamco dolor Lorem veniam aute ex sint officia in non officia officia.",
+      "publishedAt": "dd-mm-yyyy"
+    }
+  ]
+}

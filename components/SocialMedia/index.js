@@ -9,21 +9,30 @@ export default function SocialMedia(props) {
       <ul className="flex gap-x-5 justify-center">
         <li>
           <Link href="https://www.instagram.com/aristocp">
-            <a className="text-white text-lg" target="_blank">
+            <a
+              className="text-white text-lg hover:text-gray-700"
+              target="_blank"
+            >
               <FaInstagram />
             </a>
           </Link>
         </li>
         <li>
           <Link href="https://github.com/aristocaesar">
-            <a className="text-white text-lg" target="_blank">
+            <a
+              className="text-white text-lg hover:text-gray-700"
+              target="_blank"
+            >
               <FiGithub />
             </a>
           </Link>
         </li>
         <li>
           <Link href="mailto:hi@aristoc.space">
-            <a className="text-white text-lg" target="_blank">
+            <a
+              className="text-white text-lg hover:text-gray-700"
+              target="_blank"
+            >
               <HiOutlineMail />
             </a>
           </Link>

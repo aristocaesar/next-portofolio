@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <Fragment>
-      <h1 className="text-center font-bold text-blue-500">Aristoc.Space</h1>
+      <h1 className="text-center font-bold text-white">Aristoc.Space</h1>
       <nav className="mt-6 mb-10">
         <ul className="flex gap-x-5 justify-center">
           <li>
